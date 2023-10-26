@@ -1,24 +1,23 @@
-# Projet ATLG 2022 : Boulderdash
+# ATLG 2022 Project: Boulderdash
 
-## Présentation :
-Cette application est un jeu appelé BoulderDash. On a choisi comme modele la version de 1984.
-Contient :
+## Presentation:
+This application is a game called BoulderDash. We chose the 1984 version as our model.
+It includes:
 
-* L'application
-* Des fichiers de niveaux
-*  Des images représentant les différents éléments du jeu
-* Une police d'écriture
-* Un fichier contenant une structure du programme en diagrammes de classes(Un en format png et l'autre avec un lien mais ce sont les memes)
+* The application
+* Level files
+* Images representing the various game elements
+* A font
+* A file containing a program structure in class diagrams (one in png format and the other with a link, but they are the same)
 
+## Objective:
+The goal of the game is to collect a certain number of diamonds without being crushed by them or by the rocks that may be in your way.
 
-## But :
-Le but du jeu est de ramasser un certain nombre de diamants sans se faire écraser par ceux-ci ou par les pierres qui se trouveront sur le chemin.
+## Controls:
+Use the keys Z, Q, S, D, or the arrow keys to move the player. Use U to undo a move and R to redo an undone move. Press L to abandon the game.
 
-## Commandes :
-Utiliser les touches Z,Q,S,D ou les fleches directionelles pour déplacer le joueur. U pour defaire un mouvement et R pour refaire un mouvement defait. L pour abandonner la partie
+## My Choices:
+Here are the different choices I made regarding the game's behavior and rendering:
 
-## Mes choix :
-Voici les différents choix que j'ai fait concernnt le comportement et rendu du jeu :
-
-* J'ai choisi de ne pas faire de menu pour choisir son niveau mais de faire ceux-ci dans l'ordre (du niveau 1 jusqu'au dernier disponible)
-* J'ai choisi aussi de rendre la sortie inaccessible jusqu'à ce que l'utilisateur aie ramassé au moins 1/4 des diamants présents dans le niveau
+* I chose not to create a menu to select levels but to progress through them in order (from level 1 to the last available).
+* I also decided to make the exit inaccessible until the player has collected at least 1/4 of the diamonds present in the level.
